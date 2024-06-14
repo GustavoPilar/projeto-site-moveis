@@ -1,0 +1,19 @@
+# Logs
+*.log
+
+# Node modules (se você usar npm ou yarn no futuro)
+node_modules/
+
+# Diretórios de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários e backups
+*.tmp
+*.bak
