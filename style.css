@@ -4,7 +4,10 @@
     padding: 0;
     color: #1a1b1f;
     font-weight: 400;
+    letter-spacing: 1px;
 }
+
+/* HEADER */
 
 header {
     display: flex;
@@ -16,6 +19,7 @@ header h1 {
     text-decoration: underline;
     text-transform: capitalize;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 
 header ul {
@@ -32,7 +36,6 @@ header ul li a {
     text-decoration: none;
     color: gray;
     font-size: 12px;
-    letter-spacing: 1px;
 }
 
 header ul li a:hover {
@@ -43,4 +46,66 @@ header ul li a:hover {
 header ul > li:nth-child(1) a {
     color: #1a1b1f;
     font-weight: 600;
+}
+
+/* MAIN */
+main {
+    margin: auto;
+    width: 95%;
+}
+
+main div#information-top {
+    margin: 100px auto;
+    width: 80%;
+}
+
+main div#information-top p#name {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+main div#information-top p#job {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+main div#information-top h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 90%;
+    line-height: 50px;
+}
+
+main div#information-top h2 span {
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+main div.cards {
+    border: solid 1px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 100px;
+}
+
+main div.cards div.bigger {
+    width: 55%;
+    height: 500px;
+}
+
+main div.cards div.smaller {
+    width: 40%;
+}
+
+main div.cards div div {
+    height: 450px;
+    width: 100%;
+    margin: 0 auto 20px;
+    border: solid 1px;
+    border-radius: 10px;
 }
