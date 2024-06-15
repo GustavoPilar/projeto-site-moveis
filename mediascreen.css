@@ -14,4 +14,62 @@
         justify-content: space-evenly;
         width: 100%;
     }
+
+    main {
+        width: 95%;
+    }
+
+    main div#information-top {
+        margin: 50px auto;
+    }
+
+    main div#information-top h2 {
+        font-size: 20px;
+        width: 95%;
+        line-height: 35px;
+    }
+
+    main div.cards {
+        display: block;
+        justify-content: none;
+        margin-bottom: 25px;
+    }
+
+    main div.cards div.bigger {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main div.cards div.smaller {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main fieldset {
+        width: 95%;
+        padding: 13px;
+    }
+
+    main fieldset h3 {
+        font-size: 20px;
+    }
+
+    main fieldset p {
+        width: 90%;
+    }
+
+    main fieldset input {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    main fieldset textarea {
+        width: 80%;
+    }
+
+    footer ul li{
+        font-size: 9px;
+        margin: 0;
+    }
+
 }
