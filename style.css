@@ -45,6 +45,7 @@ header ul li a {
 header ul li a:hover {
     color: rgb(63, 63, 63);
     font-weight: 400;
+    text-decoration: underline;
 }
 
 header ul > li:nth-child(1) a {
@@ -123,4 +124,91 @@ main div.cards div h3 a:hover {
 main div.cards div p {
     color: gray;
     margin-top: 15px;
+}
+
+main fieldset {
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+    border: none;
+    padding: 50px;
+}
+
+main fieldset h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+main fieldset p {
+    margin-bottom: 20px;
+}
+
+main fieldset label {
+    margin: 15px 0;
+}
+
+main fieldset label:nth-child(5) {
+    display: block;
+    margin-bottom: 5px;
+}
+
+main fieldset input {
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    height: 20px;
+    padding: 5px;
+    width: 250px;
+}
+
+main fieldset textarea {
+    display: block;
+    resize: none;
+    width: 680px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 5px;
+}
+
+main fieldset input#button {
+    margin: 10px 0;
+    background-color: #1a1b1f;
+    color: white;
+    height: 55px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    transition: background-color 1s;
+    border: 2px solid white;
+}
+
+main fieldset input#button:hover {
+    background-color: white;
+    color: #1a1b1f;
+    border: 2px solid #1a1b1f;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer a {
+    margin-left: 25px;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 25px;
+    text-transform: uppercase;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
 }
