@@ -196,6 +196,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    text-transform: uppercase;
 }
 
 footer a {
@@ -206,7 +207,6 @@ footer ul li{
     list-style: none;
     display: inline;
     margin: 0 25px;
-    text-transform: uppercase;
 }
 
 footer ul li:hover {
