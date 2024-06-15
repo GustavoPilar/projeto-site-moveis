@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+    main div#content-top, div#content-bottom {
+        display: block;
+        text-align: center;
+    }
+
+    main div#content-top div.information-top, div#content-bottom div.information-top {
+        width: 100%;
+    }
+
+    main div#content-top div#image {
+        width: 95%;
+        height: 500px;
+        margin: 30px auto 0;
+    }
+
+    main div#content-bottom div.information-top {
+        margin-bottom: 50px;
+    }
+
+    main div#content-bottom div#skills {
+        display: block;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
