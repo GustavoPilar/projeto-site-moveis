@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Montserrat", arial;
     margin: 0;
     padding: 0;
     color: #1a1b1f;
     font-weight: 400;
     letter-spacing: 1px;
+    text-decoration: none;
 }
+
 
 /* HEADER */
 
@@ -33,7 +38,6 @@ header ul {
 }
 
 header ul li a {
-    text-decoration: none;
     color: gray;
     font-size: 12px;
 }
@@ -85,7 +89,6 @@ main div#information-top h2 span {
 }
 
 main div.cards {
-    border: solid 1px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -94,18 +97,30 @@ main div.cards {
 }
 
 main div.cards div.bigger {
-    width: 55%;
-    height: 500px;
+    width: 60%;
 }
 
 main div.cards div.smaller {
-    width: 40%;
+    width: 35%;
 }
 
 main div.cards div div {
     height: 450px;
     width: 100%;
     margin: 0 auto 20px;
-    border: solid 1px;
+}
+
+main div.cards div div img {
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
+}
+
+main div.cards div h3 a:hover {
+    color: gray;
+}
+
+main div.cards div p {
+    color: gray;
+    margin-top: 15px;
 }
