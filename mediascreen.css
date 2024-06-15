@@ -16,7 +16,7 @@
     }
 
     main {
-        width: 95%;
+        width: 96%;
     }
 
     main div#information-top {
@@ -46,7 +46,7 @@
     }
 
     main fieldset {
-        width: 95%;
+        width: 92%;
         padding: 13px;
     }
 
@@ -55,21 +55,31 @@
     }
 
     main fieldset p {
-        width: 90%;
+        width: 80%;
+    }
+
+    main fieldset label {
+        text-align: left;
+        margin: 0;
     }
 
     main fieldset input {
         display: block;
-        margin-bottom: 15px;
+        margin: 15px 0;
     }
 
     main fieldset textarea {
         width: 80%;
     }
 
+    footer a {
+        margin-left: 0;
+    }
+
     footer ul li{
         font-size: 9px;
         margin: 0;
     }
+
 
 }
